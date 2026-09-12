@@ -1,0 +1,10 @@
+<mcpserver name="craa7_ServiceRequestApplication_MCPServer">
+  <description>MCP Server for app Service Request Application</description>
+  <displayname>Service Request Application MCP Server</displayname>
+  <iscustom>0</iscustom>
+  <iscustomizable>1</iscustomizable>
+  <isremote>0</isremote>
+  <serverurl>https://agent365.svc.cloud.microsoft/mcp/environments/2e24fcea-5e1c-eaa5-9912-1a0c37b32015/servers/craa7_ServiceRequestApplication_MCPServer</serverurl>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</mcpserver>

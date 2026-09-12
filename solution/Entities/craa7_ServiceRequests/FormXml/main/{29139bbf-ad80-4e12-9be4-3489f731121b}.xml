@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{29139bbf-ad80-4e12-9be4-3489f731121b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{ade8878c-11c0-439c-9950-4360dbb50bd6}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="request_information_section" id="21cff06d-23a5-4405-8f7f-14a8f6a0010d" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Request Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{7884b687-085f-4f24-a40c-379a1c37e089}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Request Title" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_requesttitle" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="craa7_requesttitle" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1c9683ac-a747-4829-86b6-abedf17e62ed}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Request Category" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_requestcategory" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="craa7_requestcategory" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2129a80a-ccda-45c8-9467-cad16ea34f3c}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="craa7_description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="request_management" id="81f89ae1-706d-4697-ab4f-0fd94efd3f70" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="11" labelwidth="115">
+                  <labels>
+                    <label description="Request Management" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{af8f03b4-c354-4aa1-87f8-d7bd531ae723}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Request Number" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_requestnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="craa7_requestnumber" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c5cf3a4d-0f1b-473e-9423-cfa3b4bf423b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Priority" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_priority" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="craa7_priority" disabled="false" />
+                      </cell>
+                      <cell id="{c72c7b2c-0b05-4206-b880-8b9776579fb9}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Assigned To" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_assignedto" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="craa7_assignedto" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{e71e69d8-0045-40d0-9a1b-ae9bc0195a84}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{546eb542-64ad-4cac-a25b-f39adedeab6f}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_status" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="craa7_status" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="date_section" id="b39a4505-2351-43c4-817b-fc76a54f4d6f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Dates" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell id="{c65eedcb-024b-46a8-9358-fa20ddb7efcf}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Submitted Date" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_submitteddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="craa7_submitteddate" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ca4f556-62ce-4bbc-b825-ab6b67f06bfd}" locklevel="1" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Completed Date" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_completeddate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="craa7_completeddate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{084ad8d0-48bc-48c4-ac12-13515e25f07d}">
+                  <labels>
+                    <label description="System Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c6074e17-7f5f-4c7c-b870-959d30ba6ae0}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{0e494896-1083-453a-9f76-e640c743976c}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{3deb35c5-680c-465c-915f-7ac0253dc661}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{e047595b-36b7-49dd-a7c7-06cf3ffb0090}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9eabb0b5-5149-447c-98b3-b06e419850d9}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{53a9f266-07ba-451d-a7dd-291ad83f0205}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{dd47fad2-af0b-47d8-9162-4ce15f1fae7a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{181513cc-fd55-42b6-acbc-1d757ff5c25c}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{476a5c9b-f9b1-4728-b2a9-ada3ce30fbd8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

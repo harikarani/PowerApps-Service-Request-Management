@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{76fb53a4-3312-4d90-91db-09632d26605b}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0ed9fc9c-8694-4c43-9dfc-410eb30e5ccf}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{f678907f-4381-4dc4-a51e-dd6f946f6f60}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{017643da-8769-442b-9d51-da8394ae8a1a}">
+                        <labels>
+                          <label description="Category Name" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_categoryname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="craa7_categoryname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{58794abb-d454-43f3-b65e-a8b2ee363db6}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{29dbdcf7-563c-4353-88eb-1a441be4e19f}">
+                        <labels>
+                          <label description="Category Code" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_categorycode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="craa7_categorycode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{84a2e3a0-662e-48ce-8494-7c39d6c42e05}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_description" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="craa7_description" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fc0f6800-9406-48ca-bcc9-f72578838b05}">
+                        <labels>
+                          <label description="IsActive" languagecode="1033" />
+                        </labels>
+                        <control id="craa7_isactive" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="craa7_isactive" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

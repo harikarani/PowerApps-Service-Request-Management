@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_craa7_requestcategories" />
+  <EntityRelationship Name="business_unit_craa7_servicerequests" />
+  <EntityRelationship Name="craa7_servicerequests_AssignedTo_systemuser" />
+  <EntityRelationship Name="craa7_servicerequests_RequestCategory_craa7_requestcategories" />
+  <EntityRelationship Name="lk_craa7_requestcategories_createdby" />
+  <EntityRelationship Name="lk_craa7_requestcategories_modifiedby" />
+  <EntityRelationship Name="lk_craa7_servicerequests_createdby" />
+  <EntityRelationship Name="lk_craa7_servicerequests_modifiedby" />
+  <EntityRelationship Name="owner_craa7_requestcategories" />
+  <EntityRelationship Name="owner_craa7_servicerequests" />
+  <EntityRelationship Name="team_craa7_requestcategories" />
+  <EntityRelationship Name="team_craa7_servicerequests" />
+  <EntityRelationship Name="user_craa7_requestcategories" />
+  <EntityRelationship Name="user_craa7_servicerequests" />
+</EntityRelationships>

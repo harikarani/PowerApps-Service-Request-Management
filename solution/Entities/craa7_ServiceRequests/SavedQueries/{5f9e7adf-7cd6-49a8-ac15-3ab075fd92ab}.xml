@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{5f9e7adf-7cd6-49a8-ac15-3ab075fd92ab}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="craa7_requesttitle" select="1" icon="1" preview="1">
+        <row name="result" id="craa7_servicerequestsid">
+          <cell name="craa7_requesttitle" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="craa7_servicerequests">
+          <attribute name="craa7_servicerequestsid" />
+          <attribute name="craa7_requesttitle" />
+          <attribute name="createdon" />
+          <order attribute="craa7_requesttitle" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Service Requests Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
